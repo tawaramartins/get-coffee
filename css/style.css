@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root {
+    --bg-shadow: rgb(221, 221, 221);
+    --font-color: rgb(36, 36, 36);
+}
+/*home*/
+/*header*/
+header.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0px 1px 10px var(--bg-shadow);
+    position: relative;
+}
+nav.nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+ul li {
+    color: var(--font-color);
+}
