@@ -17,8 +17,8 @@
 </p>
 
 ## :white_check_mark: Features
-[x] Layout construído com Flexbox
-[] Layout mobile em construção 
+- Layout construído com Flexbox
+- Layout mobile em construção 
 
 ## :globe_with_meridians: Tecnologias
 -  [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
