@@ -10,22 +10,27 @@
 
 :root {
     --bg-shadow: rgb(221, 221, 221);
-    --font-color: rgb(36, 36, 36);
+    --font-color: #242424;
+    --btn-color: #ffffff;
+    --bg-btn: #FCA60F;
+
 }
-/*home*/
 /*header*/
 header.cabecalho {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     padding: 1rem;
-    box-shadow: 0px 1px 10px var(--bg-shadow);
-    position: relative;
+    box-shadow: 0px 1px 8px var(--bg-shadow);
+    
+
 }
+
 nav.nav-menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
+    
 }
 ul {
     display: flex;
@@ -34,4 +39,64 @@ ul {
 }
 ul li {
     color: var(--font-color);
+}
+div.vectors {
+    display: flex;
+    justify-content: space-between;
+    }
+/*vetores*/
+img.vector1{
+    object-fit: cover;
+    position: relative;
+    top: 10rem;
+    right: 13rem;
+    z-index: -1;
+}
+
+img.vector2{
+    position: relative;
+    top: 1rem;
+    object-fit: cover;
+    object-position: 150px;
+    z-index: -1;
+}
+/*main*/
+main.content-main{
+    display: flex;
+    width: 36rem;
+    height: 25rem;
+    position: absolute;
+    top: 23rem;
+    left: 5em;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+main.content-main p.content{
+    color: var(--font-color);
+    line-height: 3.06rem;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+a.redes {
+    display: flex;
+    gap: 2.1%;
+}
+button.btn {
+    width: 18.12rem;
+    height: 3.65rem;
+    color: var(--btn-color);
+    background-color: var(--bg-btn);
+    font-weight: 600;
+    font-size: 1.4rem;
+    border: 0;
+    border-radius: 5px;
+}
+div.copo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 1rem;
+    left: 55rem;
 }
