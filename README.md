@@ -1,6 +1,9 @@
 <h1 align="center">Get Coffee ☕</h1>
   <h4><p align="center">Landing page de uma cafeteria online</p></h4>
 
+<img src="https://raw.githubusercontent.com/lucianesantcs/get-coffee/master/design/mockup.png" alt="Get Coffee Design" width="960">
+
+
 <h1 align="center"> Devchallenge </h1>
 
 <p align="center"><a href="https://devchallenge.com.br/"> DevChallenge</a> permite que você evolua suas skills como programador!</p>
@@ -14,7 +17,8 @@
 </p>
 
 ## :white_check_mark: Features
-* Layout está sendo construído com Flexbox
+[x] Layout construído com Flexbox
+[] Layout mobile em construção 
 
 ## :globe_with_meridians: Tecnologias
 -  [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
