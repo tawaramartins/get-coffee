@@ -25,6 +25,10 @@ header.cabecalho {
     
 
 }
+/*logo*/
+.logo {
+    cursor: pointer;
+}
 /*menu*/
 nav.nav-menu{
     display: flex;
@@ -81,9 +85,9 @@ main.content-main p.content{
     font-weight: 700;
 }
 /*redes sociais*/
-a.redes {
+div.redes {
     display: flex;
-    gap: 2.1%;
+    gap: 2%;
 }
 /*button*/
 button.btn {
@@ -95,6 +99,7 @@ button.btn {
     font-size: 1.4rem;
     border: 0;
     border-radius: 5px;
+    cursor: pointer;
 }
 /*copo*/
 div.copo {
@@ -102,5 +107,7 @@ div.copo {
     align-items: center;
     position: absolute;
     top: 1rem;
-    left: 55rem;
+    left: 50rem;
 }
+
+
